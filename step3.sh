@@ -13,4 +13,4 @@ chequebook=`curl -s http://localhost:${dpi_port}/chequebook/address | jq .cheque
 echo "chequebook:${chequebook}"
 echo "${ip},${i},${dpi_port},${address},${chequebook}" >> ${ip}.txt
 done
-sz ${ip}.txt
+#sz ${ip}.txt
