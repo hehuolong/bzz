@@ -40,7 +40,7 @@ db-capacity: 15000000
 debug-api-addr: 127.0.0.1:$((1634+${tCnt}))
 debug-api-enable: true
 p2p-addr: :$((1734+${tCnt}))
-password-file: /bee/password
+password-file: /var/lib/bee/password
 verbosity: 5
 swap-endpoint: ${ep}
 EOF

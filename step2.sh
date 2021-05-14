@@ -21,7 +21,7 @@ echo "第$i个节点已启动。"
 screen -ls
 done
 echo "下载密钥至本地……"
-cp /bee/password ./keys
+cp /var/lib/bee/password ./keys
 mv ./keys/password ./keys/${ip}-password.txt
 #sz ./keys/*
 #rm -r ./keys
